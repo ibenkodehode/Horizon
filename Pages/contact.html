@@ -11,12 +11,14 @@
     <!-- <div class="Info">
       <h1>Contact</h1>
     </div> -->
-    <h1 class="header"><a href="/Home/index.html">HORIZON</a></h1>
+    <h1 class="header">
+      <a class="a-navbar" href="/Home/index.html">HORIZON</a>
+    </h1>
     <div class="navbar">
-      <a href="/Home/index.html">Home</a>
-      <a href="/Planets/planets.html">Planets</a>
-      <a class="active" href="/Contact/contact.html">Contact</a>
-      <a href="/Telescopes/telescopes.html">Telescopes</a>
+      <a class="a-navbar" href="/index.html">Home</a>
+      <a class="a-navbar" href="/Pages/planets.html">Planets</a>
+      <a class="a-navbar active" href="/Pages/contact.html">Contact</a>
+      <a class="a-navbar" href="/Pages/telescopes.html">Telescopes</a>
     </div>
     <div class="form">
       <fieldset>
@@ -32,15 +34,13 @@
             placeholder="Password"
             required
             maxlength="20"
-            minlength="5"
-          />
+            minlength="5" />
           <hr />
         </form>
         <form class="feedback">
           <label for="feedback">Do you have any feedback for us?</label> <br />
           <textarea
-            placeholder="This is what i think you should do..."
-          ></textarea>
+            placeholder="This is what i think you should do..."></textarea>
         </form>
         <form class="dob">
           <label for="dob">Date of Birth:</label> <br />
