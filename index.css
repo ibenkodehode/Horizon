@@ -9,10 +9,12 @@
 body {
   font-family: "Oswald", sans-serif;
   color: #ffffff;
-  background-image: url("Images/spacebackground.jpg");
+  background-image: url("Images/stars.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 .header {
@@ -41,47 +43,30 @@ body {
   transform: scale(1.2);
 }
 
-/* .tablinks {
-  font-family: "Oswald", sans-serif;
-  cursor: pointer;
-  border: 1px solid transparent;
-  background-color: transparent;
-  height: 500px;
-  width: 2000px;
-  color: #ffffff;
-  font-size: 1.5em;
-  transition: all 0.1s ease;
-}
-.tablinks:hover {
-  font-family: "Oswald", sans-serif;
-  cursor: pointer;
-  border: 1px solid transparent;
-  background-color: transparent;
-  height: 50px;
-  width: 200px;
-  color: #ffffff;
-  text-transform: scale(1.4);
-} */
-
 /* HOME PAGE */
-.background-frontpage {
-  background-image: url(/Images/stars.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  /* background-size: cover; */
-  width: 100%;
-}
-
-.curtain {
-  background-image: url(Images/moonpng.png);
+#footer-home {
   min-height: 65vh;
-  background-size: cover;
+  height: auto;
   width: 100%;
-  /* bottom: 0;
-  position: sticky;
-  position: -webkit-sticky; */
-  /* background-position: center; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  color: #ffffff52;
+  margin: 0;
+  padding: 0;
+}
+#footer-img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+#footer-text {
+  position: absolute;
+  z-index: 1;
 }
 
 .navfront {
