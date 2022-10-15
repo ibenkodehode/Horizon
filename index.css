@@ -18,12 +18,10 @@ body {
 .header {
   display: block;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: cover;
-  font-family: Oswald;
+  margin: 3vh auto;
+  /* font-size: cover; */
   font-weight: 400;
-  letter-spacing: 5px;
+  letter-spacing: 0.4em;
   line-height: 1.8em;
   color: rgb(255, 255, 255);
   max-width: fit-content;
@@ -31,6 +29,7 @@ body {
 
 .a-navbar,
 .submit {
+  display: inline-block;
   font-size: 1.5em;
   transition: ease 0.5s;
   color: rgb(255, 255, 255);
@@ -39,10 +38,7 @@ body {
 
 .a-navbar:hover,
 .submit:hover {
-  font-weight: bolder;
-
-  /* transform: scale(1.8); */
-  transform: scale(5);
+  transform: scale(1.2);
 }
 
 /* .tablinks {
