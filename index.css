@@ -11,10 +11,10 @@ body {
   color: #ffffff;
   background-image: url("Images/stars.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  /* min-height: 100vh;
+  min-height: -webkit-fill-available; */
 }
 
 .header {
@@ -109,19 +109,19 @@ body {
 
 .parallax {
   background-image: url(Images/stars.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 45em;
-  padding: 5em 2em;
+  padding: 12em 2em;
 }
+
 .card {
   /* border: 6px rgb(81, 197, 81) solid; */
   background-color: #b7b7b722;
   border-radius: 0.5em;
-  padding: 1em;
-  margin: 2em 6em;
+  width: 80%;
+  /* padding: 3em; */
+  margin: 1em auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -159,7 +159,7 @@ body {
 
 .info {
   /* border: 6px rgb(175, 77, 200) solid; */
-
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -168,6 +168,7 @@ body {
 .facts {
   /* border: 6px rgb(221, 236, 145) solid; */
   width: 25%;
+  height: 85%;
 }
 
 h2,
